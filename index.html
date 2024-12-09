@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+	 crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="estilo.css">
+	<title>RM Desarrollador Web Junior</title>
+</head>
+
+<body>
+	<!-- SECCION I N I C I O -->
+	<section id="inicio">
+		<div class="contenido">
+			<header>
+				<div class="contenido-header">
+					<h1>/RM/</h1>
+					<nav id="nav" class="">
+						<ul id="links">
+							<li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+							<li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+							<li><a href="#servicios" onclick="seleccionar(this)">CERTIFICACIONES</a></li>
+							<li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
+							<li><a href="#portfolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+							<li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+						</ul>
+					</nav>
+
+					<!-- Icono del menu responsive -->
+					<div id="icono-nav" onclick="responsiveMenu()">
+						<i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://github.com/dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rosalio-morales-6a766733a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://codepen.io/collection/QbLBVb" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenid@s</p>
+                <h2>Soy <span>Rosalio Morales</span>, Desarrollador Web Junior</h2>
+                <p class="descripcion"></p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/mi_foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Rosalio Morales</span> </h2>
+            <h3>Desarrollador Web Junior</h3>
+            <p>Desde niño me gustó descubrir y crear cosas útiles para la vida diaria. En mi juventud,
+
+                después de terminar el bachillerato, comienzo a aprender a reparar computadoras, lo cual me
+
+                lleva a una gran curiosidad por aprender el Mundo del Software y la Ofimática. Tomo un Diplomado
+
+                en Informática Avanzada, para luego ingresar a la Universidad para cursar Ingeniería en
+
+                Desarrollo de Software. Pasó el tiempo y continué en el Mundo de las Computadoras, pero nunca ejercí
+
+                los conocimientos universitarios. Hace 2 años me retiro del Mundo de las Computadoras y me actualizo
+
+                en el Mundo de la programación. Hoy estoy en busca de mi primer trabajo como desarrollador. </p>
+            <a href="https://github.com/rosalio-morales-barajas/mi_curriculum" target="_blank">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS CERTIFICACIONES</h3>
+        <div class="fila">
+            <div class="servicio">
+                <img src="img/back-end-development-and-apis_recortada.jpg" alt="" width="260px" height="220px">
+            </div>
+
+            <div class="servicio">
+                <img src="img/data-visualization_recortada.jpg" alt="" width="260px" height="220px">
+            </div>
+            <div class="servicio">
+                <img src="img/front-end-development-libraries_recortada.jpg" alt="" width="260px" height="220px">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <img src="img/full-stack-1_recortada.jpg" alt="" width="260px" height="220px">
+            </div>
+            <div class="servicio">
+                <img src="img/information-security-and-quality-assurance_recortada.jpg" alt="" width="260px"
+                    height="220px">
+            </div>
+            <div class="servicio">
+                <img src="img/javascript-algorithms-and-data-structures-v8_recortada.jpg" alt="" width="260px"
+                    height="220px">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <img src="img/javascript-algorithms-and-data-structures_recortada.jpg" alt="" width="260px"
+                    height="220px">
+            </div>
+
+            <div class="servicio">
+                <img src="img/quality-assurance-v7_recortada.jpg" alt="" width="260px" height="220px">
+            </div>
+            <div class="servicio">
+                <img src="img/responsive-web-design_recortada.jpg" alt="" width="260px" height="220px">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+     <section id="habilidades">
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html & Css</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso1" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso2" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Bases de Datos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso3" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>React</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso4" id="react"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Angular</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso5" id="angular"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Django</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso6" id="django"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Typescript</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso7" id="typescript"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Java</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso8" id="java"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Python</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso9" id="python"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Express</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="barra-progreso10" id="express"></div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Calculator Application.jpg" alt="">
+                <div class="info">
+                    <h4>Calculadora con React y Javascript</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Calculator---JS" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/cronometro.jpeg" alt="">
+                <div class="info">
+                    <h4>Cronometro Digital con React y Javascript</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/25-5-Clock" target="_blank">Ver Codigo</a>
+                    </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Caja de ritmos musicales.jpeg" alt="">
+                <div class="info">
+                    <h4>Caja de ritmos musicales con React</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Drum-Machine" target="_blank">Ver Codigo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Generador de frases aleatorias.jpeg" alt="">
+                <div class="info">
+                    <h4>Generador de Frases Aleatorias con React y Typescript</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Random-Quote-Machine" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Menu de Cafeteria.jpeg" alt="">
+                <div class="info">
+                    <h4>Menu de Cafeteria con HTML y Javascript</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/menu_cafeteria" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Crayolas de Colores con CSS.jpeg" alt="">
+                <div class="info">
+                    <h4>Crayolas de colores con HTML y Javascript</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Crayolas-de-Colores" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Formulario De Registro.jpeg" alt="">
+                <div class="info">
+                    <h4>Formulario de Registro con HTML y CSS</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Formulario-de-Registro" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Pintura de Rothko.jpeg" alt="">
+                <div class="info">
+                    <h4>Pintura se Rothko con HTML y CSS</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Pintura-de-Rothko" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Galeria de Fotos.jpeg" alt="">
+                <div class="info">
+                    <h4>Galeria de Fotos con Flex Box, HTML y CSS</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Galeria-de-Fotos" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Etiqueta Nutricional.jpeg" alt="">
+                <div class="info">
+                    <h4>Etiqueta Nutricional con HTML y CSS</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Etiqueta-Nutricional" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Cuestionario para discapacitados.jpeg" alt="">
+                <div class="info">
+                    <h4>Cuestionario para Discapacitados con HTML y CSS</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Cuestionario-para-Discapacitados"
+                            target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Hoja de Balance.jpeg" alt="">
+                <div class="info">
+                    <h4>Hoja de Balance con HTML y CSS usando selectores</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Hoja-de-Balance" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Reproductor de Musica.jpeg" alt="">
+                <div class="info">
+                    <h4>Reproductor de Musica con HTML,CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Reproductor-de-Musica" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Contador de Calorias.jpeg" alt="">
+                <div class="info">
+                    <h4>Contador de Calorias con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Contador-de-Calorias" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Formateador de Fecha.jpeg" alt="">
+                <div class="info">
+                    <h4>Formateador de Fecha con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Formateador-de-Fecha" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Tarjetas de Jugadores de Football.jpeg" alt="">
+                <div class="info">
+                    <h4>Tarjetas de Jugadores de Football con HTML,CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Tarjetas-de-Jugadores-de-Football"
+                            target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Lista de Tareas Pendientes.jpeg" alt="">
+                <div class="info">
+                    <h4>Lista de Tareas Pendientes con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Lista-de-Tareas-Pendientes"
+                            target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Convertidor de Decimal a Binario.jpeg" alt="">
+                <div class="info">
+                    <h4>Convertidor de numeros decimales a numeros binarios (recursion) con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Convertidor-de-Decimal-a-Binario"
+                            target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Pagina de Autores FCC.jpeg" alt="">
+                <div class="info">
+                    <h4>Pagina de Autores FCC(fetch y promises) con HTML,CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Pagina-de-Autores-FCC" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Tabla de Clasificacion del Foro.jpeg" alt="">
+                <div class="info">
+                    <h4>Tabla de Clasificacion del Foro(programacion asincrona) con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Tabla-de-Clasificacion-del-Foro"
+                            target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Carrito de Compras.jpeg" alt="">
+                <div class="info">
+                    <h4>Carrito de Compras(POO) con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Carrito-de-Compras" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Filtro de Spam.jpeg" alt="">
+                <div class="info">
+                    <h4>Filtro de Spam(expresiones regulares) con HTML,CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Filtro-de-Spam" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Clasificador de Numeros.jpeg" alt="">
+                <div class="info">
+                    <h4>Clasificador de Numeros(pensamiento algoritmico) con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Clasificador-de-Numeros" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Calculadora de Estadisticas.jpeg" alt="">
+                <div class="info">
+                    <h4>Calculadora de Estadisticas(metodos de arrays avanzados) con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Calculadora-de-Estadisticas"
+                            target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Hoja de Calculo.jpeg" alt="">
+                <div class="info">
+                    <h4>Hoja de Calculo(Programacion Funcional) con HTML,CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Hoja-de-Calculo" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Juego de Plataformas.jpeg" alt="">
+                <div class="info">
+                    <h4>Juego de Plataformas(POO intermedia) con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Juego-de-Plataformas" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Juego Avanzado de Dados .jpeg" alt="">
+                <div class="info">
+                    <h4>Juego de Dados Avanzado(pensamiento algoritmico) con HTML, CSS y JAVASCRIPT</h4>
+                    <p><a href="https://github.com/rosalio-morales-barajas/Juego-Avanzado-de-Dados" target="_blank">Ver
+                            Codigo</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="https://formsubmit.co/chaliomorales46@gmail.com" method="POST">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad" name="nombre">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad" name="email">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full" name="asunto">
+                </div>
+                <div class="fila">
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Tu Mensaje..."
+                        class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table"> 
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2024</p>
+        <div class="redes">
+            <a href="https://github.com/dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/rosalio-morales-6a766733a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://codepen.io/collection/QbLBVb" target="_blank"><i class="fa-brands fa-codepen"></i></a>
+        </div>
+
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
